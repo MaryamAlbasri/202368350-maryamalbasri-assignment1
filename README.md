@@ -11,7 +11,7 @@ A simple, responsive personal portfolio website built with HTML, CSS, and JavaSc
 - **Projects** section showing two of my university projects in a responsive grid
 - **Image popup** – click a project image to view it larger, close with ✕, a background click, or the Esc key
 - **Active navigation link** – the menu highlights the section currently on screen
-- **Contact form** with Name, Email, and Message, plus a confirmation message (no backend)
+- **Contact form** with Name, Email, and Message, plus a confirmation message 
 - **Smooth scrolling** between sections
 - **Responsive design** for desktop, tablet, and mobile
 
