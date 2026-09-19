@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-
-
 <html lang="en">
 <head>
+  <!-- Page settings and link to stylesheet -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maryam Albasri | Portfolio</title>
@@ -10,8 +9,8 @@
 </head>
 <body>
 
- 
-
+  <!-- ===== Navigation ===== -->
+  <!-- Navigation bar with links to each section -->
   <header>
     <nav class="navbar">
       <a href="#about" class="logo">Maryam</a>
@@ -24,9 +23,8 @@
   </header>
 
   <main>
-
-
-
+    <!-- ===== About Me ===== -->
+    <!-- Greeting (filled by JS), name, tagline, and intro -->
     <section id="about">
       <p id="greeting"></p>
       <h1>Maryam Albasri</h1>
@@ -34,8 +32,8 @@
       <p>I'm a Computer Science student at King Fahd University of Petroleum and Minerals. I enjoy building clean, user-friendly websites and learning new technologies. This portfolio showcases some of my projects and my growth as a developer.</p>
     </section>
 
-
-
+    <!-- ===== Projects ===== -->
+    <!-- Each card shows an image, title, and description -->
     <section id="projects">
       <h2>Projects</h2>
       <div class="project-grid">
@@ -53,8 +51,8 @@
       </div>
     </section>
 
-
-
+    <!-- ===== Contact ===== -->
+    <!-- Contact form (no backend; handled by JavaScript) -->
     <section id="contact">
       <h2>Contact Me</h2>
       <form id="contact-form">
@@ -68,22 +66,25 @@
         <textarea id="message" name="message" rows="5" required></textarea>
 
         <button type="submit">Send</button>
+        <!-- Confirmation message appears here after submitting -->
         <p id="form-status"></p>
       </form>
     </section>
   </main>
 
-
-
+  / Image popup  -->
+  <!-- Hidden by default; opened by JS when a project image is clicked -->
   <div id="lightbox" class="lightbox">
     <span id="lightbox-close" class="close">&times;</span>
     <img id="lightbox-img" src="" alt="">
   </div>
 
+  <!-- ===== Footer ===== -->
   <footer>
     <p>&copy; 2026 Maryam Albasri</p>
   </footer>
 
+  <!-- Loaded last so all HTML elements exist first -->
   <script src="js/script.js"></script>
 </body>
 </html>
