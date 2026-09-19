@@ -13,6 +13,8 @@
 | JavaScript | Helped me implement a time-of-day greeting, active navigation link highlighting (using `IntersectionObserver`), a contact form confirmation, and an image popup (lightbox) |
 | Debugging | Helped me find why my project cards lost their styling (a broken CSS block), why an image was not loading (file name mismatch), and why clicking an image did nothing (the JavaScript had not been added yet) |
 | Content | Suggested example taglines, intro text and project descriptions, which I chose from and edited |
+| Code explanation | Explained each part of my HTML, CSS and JavaScript line by line, so I could understand it and write my own code comments |
+| Documentation | Helped draft the README and technical documentation based on my final code, which I reviewed and completed (e.g. adding the browsers I tested) |
 
 ## 2. Benefits & Challenges
 
@@ -25,6 +27,7 @@
 - **Generic output:** The first suggestions were generic (placeholder text, standard features). I had to decide what actually fit my portfolio.
 - **Not always what I wanted:** Some solutions did not match what I had in mind. For example, making the image open in a new tab left no easy way to go back, so I asked for a different approach (a popup with a close button).
 - **Integration errors:** When I edited parts of the code by hand, I sometimes broke things (a missing brace in CSS, code not pasted into the right file). I had to test carefully after each change.
+- **Keeping code clean:** Copying and pasting many times caused problems AI does not see on its own, like duplicated CSS rules, a leftover unused style, and lost indentation. I had to review the whole file and clean it up.
 
 ## 3. Learning Outcomes
 
@@ -44,6 +47,9 @@ I did not submit the AI output unchanged. Changes I made or decided on myself:
 - **Used my own images:** I added a screenshot from my SWE206 prototype and one from my COE301 Logisim design.
 - **Changed the image behavior:** I rejected opening images in a new tab and asked for a popup with a close (✕) button, which I felt was better for the user.
 - **Adjusted styling:** I changed image sizes to fit my layout.
+- **Cleaned up the code:** I removed duplicated CSS and an unused style rule, and re-formatted all files for consistent indentation.
+- **Wrote my own comments:** After asking Claude to explain each part of the code, I wrote the code comments in my own words.
+- **Completed the documentation:** I reviewed the AI-drafted README and technical documentation against my actual code and filled in my own testing details.
 
 **How I checked correctness**
 - Opened the site in the browser after every change and tested it at desktop, tablet and phone sizes using DevTools.
