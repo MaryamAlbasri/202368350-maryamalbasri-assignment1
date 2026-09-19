@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maryam Albasri | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+ 
+
+
+
+  <header>
+    <nav class="navbar">
+      <a href="#about" class="logo">Maryam</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+
+
+
+
+    <section id="about">
+      <p id="greeting"></p>
+      <h1>Maryam Albasri</h1>
+      <p class="tagline">Computer Science student</p>
+      <p>I'm a Computer Science student at King Fahd University of Petroleum and Minerals. I enjoy building clean, user-friendly websites and learning new technologies. This portfolio showcases some of my projects and my growth as a developer.</p>
+    </section>
+
+
+
+
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/images/LogIn.png" alt="University Bus Tracker prototype">
+          <h3>University Bus Tracker</h3>
+          <p>A team project for SWE206 that helps students track campus buses and check routes and schedules, making it easier to plan trips around the university.</p>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/images/Piplines.jpg" alt="Pipelined MIPS processor in Logisim">
+          <h3>Pipelined MIPS Processor</h3>
+          <p>A COE301 project where I designed a 5-stage pipelined MIPS processor in Logisim, including data forwarding and stall logic to handle hazards.</p>
+        </article>
+      </div>
+    </section>
+
+
+
+
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+        <p id="form-status"></p>
+      </form>
+    </section>
+  </main>
+
+
+
+
+
+  <div id="lightbox" class="lightbox">
+    <span id="lightbox-close" class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Maryam Albasri</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
