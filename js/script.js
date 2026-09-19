@@ -1,10 +1,10 @@
 
 
 
-
-
 const greeting = document.getElementById("greeting");
 const hour = new Date().getHours();
+
+// Show a greeting based on the current hour
 
 if (hour < 12) {
   greeting.textContent = "Good morning! 👋";
@@ -15,12 +15,10 @@ if (hour < 12) {
 }
 
 
-
-
 const sections = document.querySelectorAll("main section");
 const navLinks = document.querySelectorAll(".nav-links a");
 
-
+// Highlight the nav link of the section in the middle of the screen
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -77,7 +75,7 @@ function closeLightbox() {
 
 closeBtn.addEventListener("click", closeLightbox);
 
-// Also close when clicking the dark background or pressing Esc
+// close when clicking the dark background or pressing Esc
 lightbox.addEventListener("click", (event) => {
   if (event.target === lightbox) closeLightbox();
 });
