@@ -4,7 +4,7 @@
 A simple, responsive personal portfolio website built with HTML, CSS, and JavaScript for **SWE363 – Web Engineering, Assignment 1** at King Fahd University of Petroleum and Minerals (KFUPM).
 
 ## Live Demo
-🔗 [View the website](PASTE-YOUR-GITHUB-PAGES-LINK-HERE)
+🔗 [View the website](https://maryamalbasri.github.io/202368350-maryamalbasri-assignment1/)
 
 ## Features
 - **About Me** section with a greeting that changes by time of day (morning / afternoon / evening)
